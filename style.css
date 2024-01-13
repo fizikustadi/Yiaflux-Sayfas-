@@ -1,0 +1,179 @@
+html{
+    
+
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: url("resimler/img3.png") no-repeat ;
+    background-color: #f1faee;
+    background-size: 100%;
+    padding: 0;
+    margin: 0;
+    
+}
+#baslık2:hover{
+    color: #302ea0;
+}
+#baslık1:hover{
+    color: #302ea0;
+}
+
+ul{
+    list-style-type: none;
+}
+a{
+    color: white;
+    
+}
+#p3{
+    width: 50%;
+}
+
+
+li{
+    border-style: solid;
+    border-color:#302ea0;
+    background-color:#302ea0;
+    padding: 0.3%;
+    color: white;
+    margin: auto;
+    width: 23%;
+    float:left;
+    text-align: center;
+}
+ul li a:link{
+    text-decoration:none;
+    color:white;
+}
+ul li a:hover{
+    color: white;
+    text-decoration: underline;
+    
+
+}
+ul li:hover{
+    background-color: #8a3e76;
+    box-shadow: 10px 10px 50px #8a3e76;
+    border-color: #8a3e76;
+
+
+
+}
+#baslık1{
+    color: #8a3e76;
+    position:relative;
+    left: 10%;
+    padding: 1%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 5px;
+    width:70%;
+    text-align: center;
+    font-size: 600%;
+    top:300px;
+    
+    animation: slideOut 2s ease-out;
+}
+
+header{
+    color: #302ea0;
+}
+#baslık2{
+    color: #8a3e76;
+    font-size: 400%;
+    position:relative;
+    left: 10%;
+    top: 100px;
+    padding: 1%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 5px;
+    width: 21%;
+    
+    animation: slideOut 2s ease-out;
+}
+
+
+
+
+p{
+    position: relative;
+    border-style: solid;
+    color:#302ea0;
+    background-color:#f1faee;
+    border-width: 10px;
+    width: 100%;
+    border-color: #f1faee;
+    left: 3%;
+    top:10%;
+    animation: slideOut 2s ease-out;
+    margin-top: 0%;
+    font-size: medium;
+
+}
+p a{
+    color:#302ea0;
+}
+p:hover{
+    border-width: 20px;
+    border-style: solid;
+    color: #8a3e76;
+}
+footer{
+    position: relative ;
+
+    top:3400px;
+    text-align: center;
+    
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes slideOut {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+@keyframes slideDown {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+@keyframes slideUp {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+@keyframes open-left {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 50vw;
+    }
+}
+
+@keyframes open-right {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 50vw;
+    }
+}
